@@ -13,8 +13,11 @@ var mentorStudentRouter = require("./routes/mentorStudent");
 
 var app = express();
 
+<<<<<<< HEAD
 // view engine setup
 
+=======
+>>>>>>> 863cb7491d0bb19b7947fc514da90c463c54db25
 app.use(cors());
 app.use(logger("dev"));
 app.use(express.json());
